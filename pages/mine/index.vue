@@ -83,6 +83,7 @@ export default {
 	width: 100%;
 	height: 240upx;
 	position: relative;
+	transition: 0.5s background-color ease-out;
 
 	.tab {
 		position: absolute;
