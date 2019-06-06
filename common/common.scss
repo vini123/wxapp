@@ -1,0 +1,195 @@
+.container {
+	display: flex;
+	flex-direction: column;
+	width: 100vw;
+	height: 100vh;
+	background-color: #f2f2f2;
+}
+
+.nav-bar {
+	display: flex;
+	width: 100%;
+	box-sizing: border-box;
+	position: fixed;
+
+	.content {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		width: 100%;
+		height: 44px;
+		position: relative;
+
+		.iconfonts {
+			display: flex;
+			align-items: center;
+			position: absolute;
+			top: 7px;
+			left: 12px;
+			height: 30px;
+
+			.iconfont {
+				margin-right: 10px;
+			}
+		}
+
+		.title {
+			display: flex;
+			white-space: nowrap;
+		}
+	}
+}
+
+// 公共样式
+.bold {
+	font-weight: bold;
+}
+
+.text-size-1 {
+	font-size: 20upx;
+}
+
+.text-size-2 {
+	font-size: 22upx;
+}
+
+.text-size-3 {
+	font-size: 24upx;
+}
+
+.text-size-4 {
+	font-size: 26upx;
+}
+
+.text-size-5 {
+	font-size: 28upx;
+}
+
+.text-size-6 {
+	font-size: 30upx;
+}
+
+.text-size-7 {
+	font-size: 32upx;
+}
+
+.text-size-8 {
+	font-size: 34upx;
+}
+
+.text-size-9 {
+	font-size: 36upx;
+}
+
+.text-size-10 {
+	font-size: 38upx;
+}
+
+.icon-size-1 {
+	font-size: 40upx;
+}
+// 非公共样式，角色不同而不同
+.role-1 {
+	.nav-bar {
+		background-color: #036db7;
+		color: #fff !important;
+	}
+
+	.text-color-1 {
+		color: #036db7 !important;
+	}
+
+	.text-color-2 {
+		color: #fff !important;
+	}
+
+	.text-color-3 {
+		color: #383838 !important;
+	}
+
+	.bg-color-1 {
+		background-color: #036db7 !important;
+	}
+
+	.bg-color-2 {
+		background-color: #fff !important;
+	}
+
+	.border-color-1 {
+		border-color: #036db7 !important;
+	}
+
+	.border-color-2 {
+		border-color: #e8e8e8 !important;
+	}
+}
+
+.role-2 {
+	.nav-bar {
+		background-color: #fa5276 !important;
+		color: #fff !important;
+	}
+
+	.text-color-1 {
+		color: #fa5276 !important;
+	}
+
+	.text-color-2 {
+		color: #fff !important;
+	}
+
+	.text-color-3 {
+		color: #383838 !important;
+	}
+
+	.bg-color-1 {
+		background-color: #fa5276 !important;
+	}
+
+	.bg-color-2 {
+		background-color: #fff !important;
+	}
+
+	.border-color-1 {
+		border-color: #fa5276 !important;
+	}
+
+	.border-color-2 {
+		border-color: #e8e8e8 !important;
+	}
+}
+
+.role-3 {
+	.nav-bar {
+		background-color: #5ac792 !important;
+		color: #fff !important;
+	}
+
+	.text-color-1 {
+		color: #5ac792 !important;
+	}
+
+	.text-color-2 {
+		color: #fff !important;
+	}
+
+	.text-color-3 {
+		color: #383838 !important;
+	}
+
+	.bg-color-1 {
+		background-color: #5ac792 !important;
+	}
+
+	.bg-color-2 {
+		background-color: #fff !important;
+	}
+
+	.border-color-1 {
+		border-color: #5ac792 !important;
+	}
+
+	.border-color-2 {
+		border-color: #e8e8e8 !important;
+	}
+}

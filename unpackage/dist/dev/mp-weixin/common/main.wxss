@@ -1,0 +1,225 @@
+@charset "UTF-8";
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+@font-face {
+  font-family: "iconfont";
+  src: url("https://at.alicdn.com/t/font_1127861_etuyxdifgzj.ttf") format("truetype"), url("https://at.alicdn.com/t/font_1127861_etuyxdifgzj.svg#iconfont") format("svg");
+}
+.iconfont {
+  font-family: "iconfont" !important;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-back:before {
+  content: "\E837";
+}
+.icon-home:before {
+  content: "\E61A";
+}
+.icon-arrow-right:before {
+  content: "\E61F";
+}
+.icon-mine:before {
+  content: "\E60E";
+}
+.container {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 100vw;
+  height: 100vh;
+  background-color: #f2f2f2;
+}
+.nav-bar {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  position: fixed;
+}
+.nav-bar .content {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 100%;
+    height: 44px;
+    position: relative;
+}
+.nav-bar .content .iconfonts {
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: center;
+      -webkit-align-items: center;
+          -ms-flex-align: center;
+              align-items: center;
+      position: absolute;
+      top: 7px;
+      left: 12px;
+      height: 30px;
+}
+.nav-bar .content .iconfonts .iconfont {
+        margin-right: 10px;
+}
+.nav-bar .content .title {
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      white-space: nowrap;
+}
+.bold {
+  font-weight: bold;
+}
+.text-size-1 {
+  font-size: 20rpx;
+}
+.text-size-2 {
+  font-size: 22rpx;
+}
+.text-size-3 {
+  font-size: 24rpx;
+}
+.text-size-4 {
+  font-size: 26rpx;
+}
+.text-size-5 {
+  font-size: 28rpx;
+}
+.text-size-6 {
+  font-size: 30rpx;
+}
+.text-size-7 {
+  font-size: 32rpx;
+}
+.text-size-8 {
+  font-size: 34rpx;
+}
+.text-size-9 {
+  font-size: 36rpx;
+}
+.text-size-10 {
+  font-size: 38rpx;
+}
+.icon-size-1 {
+  font-size: 40rpx;
+}
+.role-1 .nav-bar {
+  background-color: #036db7;
+  color: #fff !important;
+}
+.role-1 .text-color-1 {
+  color: #036db7 !important;
+}
+.role-1 .text-color-2 {
+  color: #fff !important;
+}
+.role-1 .text-color-3 {
+  color: #383838 !important;
+}
+.role-1 .bg-color-1 {
+  background-color: #036db7 !important;
+}
+.role-1 .bg-color-2 {
+  background-color: #fff !important;
+}
+.role-1 .border-color-1 {
+  border-color: #036db7 !important;
+}
+.role-1 .border-color-2 {
+  border-color: #e8e8e8 !important;
+}
+.role-2 .nav-bar {
+  background-color: #fa5276 !important;
+  color: #fff !important;
+}
+.role-2 .text-color-1 {
+  color: #fa5276 !important;
+}
+.role-2 .text-color-2 {
+  color: #fff !important;
+}
+.role-2 .text-color-3 {
+  color: #383838 !important;
+}
+.role-2 .bg-color-1 {
+  background-color: #fa5276 !important;
+}
+.role-2 .bg-color-2 {
+  background-color: #fff !important;
+}
+.role-2 .border-color-1 {
+  border-color: #fa5276 !important;
+}
+.role-2 .border-color-2 {
+  border-color: #e8e8e8 !important;
+}
+.role-3 .nav-bar {
+  background-color: #5ac792 !important;
+  color: #fff !important;
+}
+.role-3 .text-color-1 {
+  color: #5ac792 !important;
+}
+.role-3 .text-color-2 {
+  color: #fff !important;
+}
+.role-3 .text-color-3 {
+  color: #383838 !important;
+}
+.role-3 .bg-color-1 {
+  background-color: #5ac792 !important;
+}
+.role-3 .bg-color-2 {
+  background-color: #fff !important;
+}
+.role-3 .border-color-1 {
+  border-color: #5ac792 !important;
+}
+.role-3 .border-color-2 {
+  border-color: #e8e8e8 !important;
+}
+

@@ -1,0 +1,74 @@
+{
+	"tabBar": {
+		"color": "#808080",
+		"selectedColor": "#036DB7",
+		"borderStyle": "black",
+		"backgroundColor": "#fff",
+		"position": "bottom",
+		"list": [{
+				"pagePath": "pages/home/index",
+				"iconPath": "static/image/tabbar/home.png",
+				"selectedIconPath": "static/image/tabbar/homeR1.png",
+				"text": "首页"
+			},
+			{
+				"pagePath": "pages/demand/index",
+				"iconPath": "static/image/tabbar/publish.png",
+				"selectedIconPath": "static/image/tabbar/publishR1.png",
+				"text": "发布"
+			},
+			{
+				"pagePath": "pages/message/index",
+				"iconPath": "static/image/tabbar/message.png",
+				"selectedIconPath": "static/image/tabbar/messageR1.png",
+				"text": "消息"
+			},
+			{
+				"pagePath": "pages/mine/index",
+				"iconPath": "static/image/tabbar/mine.png",
+				"selectedIconPath": "static/image/tabbar/mineR1.png",
+				"text": "我的"
+			}
+		]
+	},
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/home/index",
+			"style": {
+				"navigationBarTitleText": "首页",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/home/part/item",
+			"style": {
+				"navigationBarTitleText": "首页 item",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/demand/index",
+			"style": {
+				"navigationBarTitleText": "发布",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/message/index",
+			"style": {
+				"navigationBarTitleText": "消息",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/mine/index",
+			"style": {
+				"navigationBarTitleText": "我的",
+				"navigationStyle": "custom"
+			}
+		}
+	],
+	"globalStyle": {
+		"backgroundColor": "#f2f2f2"
+	}
+}
