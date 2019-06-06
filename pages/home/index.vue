@@ -6,7 +6,7 @@
 
 		<scroll-view scroll-y class="frame" :style="{ 'margin-top': statusBarHeight + 44 + 'px' }">
 			<view @tap="goItem({ id: item })" class="item" v-for="(item, index) of 12" :key="index">
-				<text class="text-size-3 text-color-3">{{ role }}</text>
+				<text class="text-size-3 text-color-3">{{ role + ' ' + item }}</text>
 			</view>
 		</scroll-view>
 	</view>
